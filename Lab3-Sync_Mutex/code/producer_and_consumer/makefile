@@ -1,0 +1,5 @@
+producer_consumer : producer_consumer.c
+	gcc --std=c99 producer_consumer.c -o producer_consumer -pthread
+
+clean :
+	rm producer_consumer
